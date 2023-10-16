@@ -1,0 +1,66 @@
+site_name: MkDocs Coverpage
+site_author: Tyler McCann
+docs_dir: docs # Root Directory (Obsidian Vault)
+repo_name: tylerdotrar/mkdocs-coverpage
+repo_url: https://github.com/tylerdotrar/mkdocs-coverpage
+
+
+# Custom Homepage Elements
+home_cover_image: attachments/wizard-posting.png # This path starts at your root mkdocs directory.
+home_tagline: Shadow Wizards Only
+home_description: |
+  This site is an example showcase for my "mkdocs-coverpage" repository. 
+
+
+# Custom Homepage Button(s)
+home_button1_name: Main Clicky # Comment this parameter out to remove the button.
+home_button1_url: Folder1/ # This path starts at your root mkdocs directory.
+home_button1_theme: md-button md-button--primary # Options: "md-button", "md-button md-button--primary"
+home_button1_icon: people # Options: "people", "gear", "image"
+home_button1_blurb: This joker navigates to the shadow wizard armory located in "/Folder1/index.md"
+
+home_button2_name: Clicky 2 # Comment this parameter out to remove the button.
+home_button2_url: Folder2/ # This path starts at your root mkdocs directory.
+home_button2_theme: md-button # Options: "md-button", "md-button md-button--primary"
+home_button2_icon: gear # Options: "people", "gear", "image"
+home_button2_blurb: This goober navigates to some important thingies located in "/Folder2/index.md"
+
+home_button3_name: Clicky 3 # Comment this parameter out to remove the button.
+home_button3_url: Folder3/ # This path starts at your root mkdocs directory.
+home_button3_theme: md-button # Options: "md-button", "md-button md-button--primary"
+home_button3_icon: image # Options: "people", "gear", "image"
+home_button3_blurb: This psycho navigates to an interesting table of stuff located in "/Folder3/index.md"
+
+
+# Material Configuration
+theme:
+  name: material
+  custom_dir: assets # Overrides folder containing 'home.html'
+  
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+    
+  palette:
+    # Light Mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to Dark Mode
+
+    # Dark Mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to Light Mode
+        
+plugins:
+  - search
+  - roamlinks # Obsidian Style Image Support [[ ]]
