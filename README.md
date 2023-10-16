@@ -1,14 +1,15 @@
 # mkdocs-coverpage
 Customizable cover page for an [mkdocs-material](https://github.com/squidfunk/mkdocs-material) site configurable from the `mkdocs.yml` file.
-(Based off of the cover page from the [up42-py](https://sdk.up42.com/) project.)
+- (Based off of the cover page from the [up42-py](https://sdk.up42.com/) project.)
+
+---
 
 >[!NOTE]
-> Feature Request:
-> - Add a toggleable parameter for gradient color.
->
-> Known Issues to Fix:
-> - When hosted with gh-pages, color palette toggle does not work.
-> - Cover page buttons can be removed, but their description boxes don't.
+> - **Feature Request:**
+>   - Add a toggleable parameter for gradient color.
+> - **Known Issues to Fix:**
+>   - When hosted with gh-pages, color palette toggle does not work.
+>   - Cover page buttons can be removed, but their description boxes don't.
 
 ## Gallery
 
