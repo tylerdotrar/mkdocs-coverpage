@@ -1,0 +1,2 @@
+# Obsidian Style Attachment Support (Example Site)
+mkdocs-roamlinks-plugin==0.3.2
